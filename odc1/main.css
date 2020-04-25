@@ -34,3 +34,15 @@ h1
 .jumpers figcaption{
 	margin-top: 8px;
 }
+
+/* .navbar-nav li:hover>.dropdown-menu{
+	display: block;
+} */
+
+.navbar{
+	min-height: 57px;
+}
+
+.bg-jumpers{
+	background-color: #91a33b !important;
+}

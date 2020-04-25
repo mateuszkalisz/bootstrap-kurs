@@ -26,6 +26,58 @@
   </head>
 
   <body>
+    <header>
+      <nav class="navbar navbar-dark bg-jumpers navbar-expand-lg">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="d-inline-block mr-1 align-bottom"
+            src="img/logo.png"
+            width="30"
+            alt=""
+          />
+          Skoki.pl</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#mainmenu"
+          aria-controls="mainmenu"
+          aria-expanded="false"
+          aria-label="Przełącznik-nawigacji"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainmenu">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a href="#" class="nav-link">Start</a></li> 
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" id="submenu" aria-haspopup="true">Zawody</a>
+              
+              <div class="dropdown-menu" aria-labelledby="submenu">
+                <a href="#" class="dropdown-item">Terminarz zawodów</a>
+                <a href="#" class="dropdown-item">Ranking pucharu świata</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Sylwetki zawodników</a>
+                <a href="#" class="dropdown-item">Skocznie narciarskie</a>
+              </div>
+            </li> 
+            <li class="nav-item"><a href="#" class="nav-link">Historia</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link">Zdjęcia</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link disabled">Wywiady</a></li> 
+            <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li> 
+
+          </ul>
+
+          <form class="form-inline">
+            <input type="search" class="form-control mr-1" placeholder="Wyszukaj" aria-label="Wyszukaj">
+            <button class="btn btn-light">Znajdź</button>
+          </form>
+
+        </div>
+      </nav>
+    </header>
+
     <main>
       <section class="jumpers">
         <div class="container">
@@ -42,21 +94,21 @@
           <div class="row">
             <div class="col-sm-5 offset-sm-1">
               <figure>
-                <a href="#"><img   src="img/malysz.jpg" alt="Adam Małysz" /></a>
+                <a href="#"><img src="img/malysz.jpg" alt="Adam Małysz" /></a>
                 <figcaption>Adam Małysz</figcaption>
               </figure>
             </div>
 
             <div class="col-sm-5">
               <figure>
-                <a href="#"><img   src="img/stoch.jpg" alt="Kamil Stoch" /></a>
+                <a href="#"><img src="img/stoch.jpg" alt="Kamil Stoch" /></a>
                 <figcaption>Kamil Stoch</figcaption>
               </figure>
             </div>
 
             <div class="col-sm-6 col-xl-4 offset-xl-2">
               <figure>
-                <a href="#"><img   src="img/ahonen.jpg" alt="Janne Ahonen" /></a>
+                <a href="#"><img src="img/ahonen.jpg" alt="Janne Ahonen" /></a>
                 <figcaption>Janne Ahonen</figcaption>
               </figure>
             </div>
@@ -64,18 +116,18 @@
             <div class="col-sm-6 col-xl-4">
               <figure>
                 <a href="#"
-                  ><img   src="img/schmitt.jpg" alt="Martin Schmitt"
+                  ><img src="img/schmitt.jpg" alt="Martin Schmitt"
                 /></a>
                 <figcaption>Martin Schmitt</figcaption>
               </figure>
-			</div>
-			
-			<div class="w-100"></div>
+            </div>
+
+            <div class="w-100"></div>
 
             <div class="col-sm-6 col-xl-4">
               <figure>
                 <a href="#"
-                  ><img   src="img/kubacki.jpg" alt="Dawid Kubacki"
+                  ><img src="img/kubacki.jpg" alt="Dawid Kubacki"
                 /></a>
                 <figcaption>Dawid Kubacki</figcaption>
               </figure>
@@ -83,7 +135,7 @@
 
             <div class="col-sm-6 col-xl-4">
               <figure>
-                <a href="#"><img    src="img/zyla.jpg" alt="Piotr Żyła" /></a>
+                <a href="#"><img src="img/zyla.jpg" alt="Piotr Żyła" /></a>
                 <figcaption>Piotr Żyła</figcaption>
               </figure>
             </div>
@@ -91,7 +143,7 @@
             <div class="col-sm-6 col-xl-4">
               <figure>
                 <a href="#"
-                  ><img   src="img/kranjec.jpg" alt="Robert Kranjec"
+                  ><img src="img/kranjec.jpg" alt="Robert Kranjec"
                 /></a>
                 <figcaption>Robert Kranjec</figcaption>
               </figure>
@@ -100,7 +152,7 @@
             <div class="col-sm-6 col-xl-4">
               <figure>
                 <a href="#"
-                  ><img  
+                  ><img
                     src="img/schlierenzauer.jpg"
                     alt="Gregor Schlierenzauer"
                 /></a>
@@ -110,28 +162,28 @@
 
             <div class="col-sm-6 col-xl-4">
               <figure>
-                <a href="#"><img   src="img/kot.jpg" alt="Maciej Kot" /></a>
+                <a href="#"><img src="img/kot.jpg" alt="Maciej Kot" /></a>
                 <figcaption>Maciej Kot</figcaption>
               </figure>
             </div>
 
             <div class="col-sm-6 col-xl-4">
               <figure>
-                <a href="#"><img   src="img/kraft.jpg" alt="Stefan Kraft" /></a>
+                <a href="#"><img src="img/kraft.jpg" alt="Stefan Kraft" /></a>
                 <figcaption>Stefan Kraft</figcaption>
               </figure>
             </div>
 
             <div class="col-sm-6 col-xl-3 offset-xl-3">
               <figure>
-                <a href="#"><img   src="img/ammann.jpg" alt="Simon Ammann" /></a>
+                <a href="#"><img src="img/ammann.jpg" alt="Simon Ammann" /></a>
                 <figcaption>Simon Ammann</figcaption>
               </figure>
             </div>
 
             <div class="col-sm-6 col-xl-3">
               <figure>
-                <a href="#"><img   src="img/kasai.jpg" alt="Noriaki Kasai" /></a>
+                <a href="#"><img src="img/kasai.jpg" alt="Noriaki Kasai" /></a>
                 <figcaption>Noriaki Kasai</figcaption>
               </figure>
             </div>
@@ -150,6 +202,10 @@
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
       crossorigin="anonymous"
     ></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
