@@ -51,6 +51,7 @@ h1
 	text-align: justify;
 	font-size: 16px;
 	padding: 30px;
+	margin-bottom: 40px;
 }
 
 @media (max-width: 575px){
@@ -59,4 +60,33 @@ h1
 		text-align: left;
 		font-size: 15px;
 	}
+	.float-left, .float-right{
+		max-width: 50%;
+	}
+
+	.blockquote{
+		font-size: 17px;		
+	}
+
+	.list-group-item{
+		text-align: center;
+	}
+}
+
+.blockquote{
+	line-height: 120%;
+}
+
+.list-group-item-dark{
+	background-color: #373a3d;
+	color: white;
+}
+
+.list-group-item-dark:hover{
+	background-color: #91a33b !important;
+}
+
+.list-group .active{
+	background-color: #91a33b !important;
+	cursor: default;
 }
